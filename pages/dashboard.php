@@ -105,15 +105,14 @@
             <div>
                 <a href="dashboard.php">Dashboard</a>
                 <a href="https://www.radiantradios.xyz">Radio</a>
-                <a href="#">Payroll</a>
-                <a href="#">Invoices</a>
-                <a href="#">Documents</a>
+                <a href="invoices.php">Invoices</a>
+                <a href="documents.php">Documents</a>
             </div>
             <div class="dropdown">
                 <a>Settings</a>
                 <div class="dropdown-content">
-                    <a href="#">Profile Settings</a>
-                    <a href="#">Account Settings</a>
+                    <a href="profile.php">Profile Settings</a>
+                    <a href="admin.php">Admin</a>
                     <a href="logout.php" onclick="return confirmLogout();">Logout</a>
                 </div>
             </div>
