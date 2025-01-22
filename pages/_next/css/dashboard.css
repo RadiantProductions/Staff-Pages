@@ -1,0 +1,95 @@
+/* /css/dashboard.css */
+
+html, body {
+    height: 100%;
+    margin: 0; /* Avoid margins to prevent unexpected scrollbars */
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden; /* Prevent horizontal scrollbars */
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: black;
+    color: #fff;
+    flex: 1; /* Makes the container fill the remaining space */
+    overflow-y: auto; /* Allow vertical scrolling if content exceeds */
+}
+
+h2 {
+    font-size: 24px;
+    color: #e0e0e0;
+}
+
+p {
+    font-size: 18px;
+    color: #b0b0b0;
+}
+
+h2, p {
+    color: #e0e0e0;
+}
+
+footer {
+    background-color: transparent;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+    overflow: hidden; /* Remove any content that goes beyond this element */
+    flex-shrink: 0; /* Ensure footer doesn't shrink */
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-icons i {
+    font-size: 28px;
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social-icons a:hover i {
+    color: #FFD700;
+    transform: scale(1.2);
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.iframe-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts the spacing between the two iframes */
+    width: 100%;
+}
+
+.iframe {
+    width: 48%; /* Adjust the width to fit both iframes side by side */
+    min-height: 404px; /* Set the desired height */
+    border: 0; /* Remove borders */
+}
+
+.iframe-clock-container {
+    margin-left: 0px; /* Adjust this value to control the distance from the left */
+}
+
+.iframe-clock {
+    border: 2px solid #ffffff; /* Adds a white border around the iframe */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}
+
+

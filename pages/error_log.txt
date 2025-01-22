@@ -1,0 +1,27 @@
+[17-Jan-2025 01:04:14 UTC] PHP Warning:  require(PHPMailer/PHPMailer.php): Failed to open stream: No such file or directory in /home/u967747021/domains/radiantradios.xyz/public_html/staff/pages/forgot-password.php on line 7
+[17-Jan-2025 01:04:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer/PHPMailer.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u967747021/domains/radiantradios.xyz/public_html/staff/pages/forgot-password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/u967747021/domains/radiantradios.xyz/public_html/staff/pages/forgot-password.php on line 7
+[17-Jan-2025 01:04:19 UTC] PHP Warning:  require(PHPMailer/PHPMailer.php): Failed to open stream: No such file or directory in /home/u967747021/domains/radiantradios.xyz/public_html/staff/pages/forgot-password.php on line 7
+[17-Jan-2025 01:04:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer/PHPMailer.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u967747021/domains/radiantradios.xyz/public_html/staff/pages/forgot-password.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/u967747021/domains/radiantradios.xyz/public_html/staff/pages/forgot-password.php on line 7
+[18-Jan-2025 07:21:26 UTC] Failed login attempt: User not found for username: private-contact@typicalmedia.net
+[18-Jan-2025 07:21:57 UTC] Failed login attempt: Invalid password for user: Seehed
+[18-Jan-2025 07:22:05 UTC] Failed login attempt: Invalid password for user: Seehed
+[18-Jan-2025 07:22:10 UTC] Failed login attempt: Invalid password for user: Seehed
+[18-Jan-2025 07:23:40 UTC] Failed login attempt: User not found for username: jordanb@radiantradios.xyz
+[18-Jan-2025 07:25:43 UTC] Failed login attempt: User not found for username: private-contact@typicalmedia.net
+[18-Jan-2025 07:35:06 UTC] Failed login attempt: User not found for username: private-contact@typicalmedia.net
+[20-Jan-2025 18:30:58 UTC] Failed login attempt: Invalid password for user: Joe
+[21-Jan-2025 10:36:33 UTC] Failed login attempt: Invalid password for user: Jordan
+[21-Jan-2025 10:36:36 UTC] Failed login attempt: Invalid password for user: Jordan
+[21-Jan-2025 10:36:38 UTC] Failed login attempt: Invalid password for user: Jordan
+[21-Jan-2025 10:36:44 UTC] Failed login attempt: Invalid password for user: Jordan
+[21-Jan-2025 10:36:57 UTC] Failed login attempt: Invalid password for user: Jordan
+[21-Jan-2025 10:38:45 UTC] Failed login attempt: Invalid password for user: Jordan
+[21-Jan-2025 11:28:37 UTC] Failed login attempt: Invalid password for user: Jordan
+[21-Jan-2025 11:40:38 UTC] Failed login attempt: Invalid password for user: Jordan
+[21-Jan-2025 16:28:59 UTC] Failed login attempt: Invalid password for user: Jordan

@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# Remove .php extension for specific files
+RewriteRule ^account$ /account.php [L]
+RewriteRule ^admin$ /admin.php [L]
+RewriteRule ^dashboard$ /dashboard.php [L]
+RewriteRule ^invoices$ /invoices.php [L]
+RewriteRule ^listall$ /listall.php [L]
+RewriteRule ^login$ /login.php [L]
+RewriteRule ^logout$ /logout.php [L]
+RewriteRule ^forgot-password$ /forgot-password.php [L]
+
+# Optional: Add a rule to handle 404s for non-existent URLs
+ErrorDocument 404 /404.php
