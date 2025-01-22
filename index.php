@@ -100,7 +100,7 @@
 </head>
 <body>
     <header>
-        <h1>Admin Panel</h1>
+        <h1>Radiant Radios Mangement</h1>
         <div class="user-info">Hello, User</div>
     </header>
 
