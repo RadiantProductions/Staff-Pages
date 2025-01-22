@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     setcookie('user_role', $user['role'], time() + (30 * 24 * 60 * 60), "/"); // 30 days
 
                     session_write_close();
-                    header("Location: OLDdashboard.php");
+                    header("Location: dashboard.php");
                     exit;
                 } else {
                     $error = "Invalid password.";
@@ -103,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="twitter:title" content="Radiant Productions Staff - Login">
     <meta name="twitter:description" content="Login to Radiant Productions' Management System securely and efficiently.">
     <meta name="twitter:image" content="https://www.radiantproductions.com/assets/login-preview.png">
-    <link rel="stylesheet" href="logintest1.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="_next/css/login.css?v=<?php?v=<?php echo time(); ?>">
 </head>
 <body>
    <div class="left-section">
