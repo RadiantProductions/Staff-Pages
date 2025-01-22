@@ -3,7 +3,7 @@ session_start();
 
 ini_set('display_errors', 0);
 ini_set('log_errors', 1);
-ini_set('error_log', 'error_log.txt');
+ini_set('error_log', 'pages/Backend/error-log.txt');
 
 if (isset($_SESSION['user_id'])) {
     header("Location: dashboard.php");
