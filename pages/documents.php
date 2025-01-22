@@ -1,32 +1,13 @@
-<html>
-<head>
-    <title>Radiant Radios | Documents</title>
-    
-</head>
-<body>
-    
-    <style>
-    .pdf {
-        width: 100%;
-        aspect-ratio: 4 / 3;
-    }
-    .pdf,
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        color:white;
-        background-color:black;
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiant Radios | Documents <title>
 
-</style>
 
-<body>
-     <div class="iframe-container">
-    <iframe src="https://us-east-1.tixte.net/uploads/cdn.radiantradios.xyz/PCOPY-PDF.pdf" class="iframe"></iframe>
-    <iframe src="https://us-east-1.tixte.net/uploads/cdn.radiantradios.xyz/DCOPY-PDF.pdf" class="iframe"></iframe>
-    <iframe src="" class="iframe"></iframe>
-</div>
+
+<?php include template/H.php'; ?>
+
 </body>
+
 
 </html>
