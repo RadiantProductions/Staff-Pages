@@ -71,7 +71,7 @@
         <div class="user-info">
             Hello, User
             <div class="dropdown">
-                <a href="/manage/profile.php">Profile Settings</a>
+                <a href="/Manage/profile.php">Profile Settings</a>
                 <a href="logout.php" onclick="confirm('Are you sure you want to log out?')">Log Out</a>
             </div>
         </div>
