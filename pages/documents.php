@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radiant Radios | Documents <title>
-<styles>
+<style>
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 
 body {
@@ -29,7 +29,8 @@ p{font-weight:300;}
   
   
 }
-</styles>
+</style>
+
     <div class="warning-content">
 <h1>New Document System  Under Construction</h1>
 
