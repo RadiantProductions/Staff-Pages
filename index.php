@@ -27,6 +27,7 @@
             justify-content: space-between;
             align-items: center;
             border-bottom: 2px solid #444;
+            position: relative;
         }
 
         header h1 {
@@ -34,8 +35,39 @@
             font-weight: bold;
         }
 
-        header .user-info {
+        .user-info {
             font-size: 14px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 20px;
+            background-color: #222;
+            border: 1px solid #444;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 150px;
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .dropdown a:hover {
+            background-color: #333;
+        }
+
+        .user-info:hover .dropdown {
+            display: block;
         }
 
         .container {
@@ -74,34 +106,18 @@
             margin-top: 10px;
             font-size: 16px;
         }
-
-        .stats {
-            border: 1px solid #444;
-            background-color: #111;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 30px;
-        }
-
-        .stats h2 {
-            font-size: 20px;
-            margin-bottom: 15px;
-        }
-
-        .stats ul {
-            list-style: none;
-        }
-
-        .stats ul li {
-            margin: 10px 0;
-            font-size: 16px;
-        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Radiant Radios Mangement</h1>
-        <div class="user-info">Hello, User</div>
+        <h1>Admin Panel</h1>
+        <div class="user-info">
+            Hello, User
+            <div class="dropdown">
+                <a href="#">Profile Settings</a>
+                <a href="#" onclick="confirm('Are you sure you want to log out?')">Log Out</a>
+            </div>
+        </div>
     </header>
 
     <div class="container">
@@ -130,18 +146,6 @@
                 <img src="https://via.placeholder.com/50" alt="Icon">
                 <p>Site Redirection</p>
             </div>
-        </div>
-
-        <div class="stats">
-            <h2>Your Account</h2>
-            <ul>
-                <li>Disk Space: 0 MB / 100 MB</li>
-                <li>Bandwidth: 0 MB / 1000 MB</li>
-                <li>Emails: 1 / 10</li>
-                <li>FTP Accounts: 1 / 1</li>
-                <li>Databases: 0 / 5</li>
-                <li>Inode: 0</li>
-            </ul>
         </div>
     </div>
 </body>
