@@ -67,7 +67,7 @@
 </head>
 <body>
     <header>
-        <h1>Admin Panel</h1>
+        <h1>Radiant Radios | Manangement Panel</h1>
         <div class="user-info">
             Hello, User
             <div class="dropdown">
