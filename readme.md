@@ -1,4 +1,6 @@
 template/PH - templates for php
+template/H.php - header with account/ logout
+Template/footer.php - footer with social icons 
 
 
 pages/PH = pages
